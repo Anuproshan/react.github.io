@@ -1,0 +1,27 @@
+header {
+width: 100%;
+clear: both;
+display: block;
+.bg-dark {
+background-color: rgb(52, 58, 64) !important;
+}
+span.navbar-brand {
+display: inline-block;
+margin-right: 0;
+}
+span.navbar-brand a {
+display: block;
+color: aliceblue;
+font-weight: 600;
+text-transform: capitalize;
+text-decoration: none;
+}
+.MyNav a {
+padding: 1rem;
+text-decoration: none;
+display: block;
+color: rgb(240, 248, 255);
+font-weight: 300;
+text-transform: capitalize;
+}
+}

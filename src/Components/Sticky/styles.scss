@@ -1,0 +1,10 @@
+.scrolled{
+position: fixed;
+width: 100%;
+z-index: 6000;
+top: 0;
+left: 0;
+right: 0;
+transition: position 0.5s ease-in-out;
+background:red!important;
+}

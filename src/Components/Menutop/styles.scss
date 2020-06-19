@@ -1,0 +1,42 @@
+@import 'media';
+@include media-phone(phone);
+@include responsive(big-desktop);
+$text-color:rgb(134, 142, 150);
+.menuTopBody {
+background: rgb(33, 37, 41);
+.innerMenu {
+width: 100%;
+span {
+    margin-right: 0.5rem;
+}
+}
+.menuOne {
+background: transparent;
+text-align: left;
+}
+.menuOne a {
+text-decoration: none;
+color:$text-color;
+text-transform: capitalize;
+font-family: inherit;
+}
+.menuTwo {
+background: transparent;
+text-align: center;
+}
+.menuTwo a {
+text-decoration: none;
+font-family: inherit;
+text-transform: capitalize;
+color:$text-color;
+}
+.menuThree {
+background: transparent;
+text-align: right;
+}
+.menuThree a {
+text-decoration: none;
+color:$text-color;
+font-family: inherit;
+}
+}

@@ -1,0 +1,92 @@
+section.myWorkBody {
+position: relative;
+z-index: 0;
+background: rgb(52, 58, 64);
+.se-tring {
+position: relative;
+width: 100%;
+span {
+position: absolute;
+width: 0;
+height: 0;
+bottom: -50px;
+z-index: -2;
+}
+.left {
+border-bottom: 100px solid rgb(33, 37, 41);
+border-right: 70vw solid rgba(255, 255, 255, 0);
+left: 0;
+}
+.right {
+border-bottom: 100px solid rgb(33, 37, 41);
+border-left: 30vw solid rgba(255, 255, 255, 0);
+right: 0;
+}
+}
+.workHeader {
+background: transparent;
+h4 {
+font-family: inherit;
+font-size: 3rem;
+text-transform: capitalize;
+font-weight: 500;
+}
+h6 {
+color: rgb(255, 255, 255);
+&::after{
+content: "__________";
+}
+&::before{
+content: "__________";
+}
+}
+}
+.innerWorker {
+height: 400px;
+text-align: center;
+transition: 10s;
+cursor:pointer;
+&:hover{
+background-position: bottom!important;	
+}
+h1 {
+line-height: 400px;
+}
+}
+.innerWorker.arbutus1 {
+background: url('../../assets/Scaleton/screencapture-dentcoat-de.png');
+background-size: 100% auto!important;
+background-position: top;
+background-repeat: no-repeat;
+}
+.innerWorker.arbutus2 {
+background: url('../../assets/Scaleton/screencapture-arbutusinfotech.png');
+background-size: 100% auto!important;
+background-position: top;
+background-repeat: no-repeat;
+}
+.innerWorker.arbutus3 {
+background: url('../../assets/Scaleton/screencapture-winwin-dental-de.png');
+background-size: 100% auto!important;
+background-position: top;
+background-repeat: no-repeat;
+}
+.innerWorker.arbutus4 {
+background: url('../../assets/Scaleton/screencapture-hotel.png');
+background-size: 100% auto!important;
+background-position: top;
+background-repeat: no-repeat;
+}
+.innerWorker.arbutus5 {
+background: url('../../assets/Scaleton/screencapture-adoring-goldwasser.png');
+background-size: 100% auto!important;
+background-position: top;
+background-repeat: no-repeat;
+}
+.innerWorker.arbutus6 {
+background: url('../../assets/Scaleton/screencapture-relaxed-boyd.png');
+background-size: 100% auto!important;
+background-position: top;
+background-repeat: no-repeat;
+}
+}
